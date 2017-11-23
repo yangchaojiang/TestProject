@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="15dp">
+
+
+    <EditText
+        android:id="@+id/common_content_msg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_hint_selector"
+        android:gravity="center_vertical"
+        android:hint="@string/write_a_commentary"
+        android:maxLines="5"
+        android:minHeight="30dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/text_grary_selector"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/common_btn_send"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+
+        android:id="@+id/common_btn_send"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/transparent"
+        android:focusable="false"
+        android:text="@string/publish_hint"
+        android:textColor="@color/text_gray_deep_selector"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        />
+
+
+</android.support.constraint.ConstraintLayout>

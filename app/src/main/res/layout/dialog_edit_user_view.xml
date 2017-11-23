@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/et_solid_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:text="标题"
+        style="@style/test" />
+
+    <EditText
+        android:gravity="left"
+        android:id="@+id/dialog_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_white_shape"
+        android:maxLines="5"
+        android:inputType="text"
+        android:focusable="true"
+        android:maxLength="30"
+        android:minHeight="80dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/edit_input_hint" />
+
+        <Button
+            android:id="@+id/dialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="@color/text_white_gray_deep_selector"
+            android:background="@drawable/btn_gray_to_blue_selector"
+            android:text="@android:string/cancel" />
+
+        <Button
+            android:id="@+id/dialog_affirm"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/btn__blue_tr_selector"
+            android:text="@string/affirm_hint"
+            android:textColor="@color/text_white_gray_deep_selector" />
+    </LinearLayout>
+</LinearLayout>

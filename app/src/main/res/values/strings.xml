@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TestProject</string>
+    <string name="edit_input_hint">支持中英文,数字</string>
+    <string name="affirm_hint">确认</string>
+    <color name="et_solid_color">#F2F4F3</color>
+    <string name="write_a_commentary">写评论...</string>
+    <string name="publish_hint">发布</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 </resources>
